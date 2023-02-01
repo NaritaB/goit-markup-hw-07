@@ -1,0 +1,52 @@
+
+
+@media screen and (min-width: 480px) {
+    
+    .container {
+    width: 458px;
+    margin: auto;
+        }
+     .header-container {
+            width: 458px;
+            height: 70px;
+        } 
+     
+    }
+   
+ @media screen (max-width: 767px) {
+    
+    .navigation-list {
+       display: none;
+       }
+   .contact-wrap {
+       display: none;
+        } 
+        
+    .container-hero {
+       padding-top: 112px;
+       padding-bottom: 112px;
+    }
+     .hero {
+        min-width: 428px;
+        height: 432px; 
+           margin-left: auto;
+           margin-right: auto;
+        }        
+     @media screen and (min-device-pixel-ratio: 2),
+        screen and (-webkit-min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+    url('../images/Dark-bg-mobile2.jpg');
+  }
+}
+.features-wrap {
+display: none;
+ }
+
+.works {
+    display: none; 
+}
+}
+ 
