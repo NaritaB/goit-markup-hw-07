@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/modern-normolize.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/descktop.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -22,15 +25,49 @@
             <li><a href="./contacts.html" class="navigation-link link">Contacts</a></li>
             </ul>
             </nav>
+            <button type="button" class="mobile-menu-button-open" data-menu-open>
+                <svg class="mobile-menu-button-open-icon" width="32" height="22"><use href="./images/icons.svg#icon-burger"></use></svg>
+            </button>
+            
+        <div class="contact-wrap">
+        <ul class="auth-contact">
+            <li><a href="mailto:info@devstudio.com" class="auth-contact link">info@devstudio.com</a></li>
+            <li><a href="tel:+11(000)111-11-11" class="auth-contact link">+11 (000) 111-11-11</a></li>
+        </ul>
+        </div>
         
-            <div class="contact-wrap">
-                <ul class="auth-contact">
-                    <li><a href="mailto:info@devstudio.com" class="auth-contact link">info@devstudio.com</a></li>
-                    <li><a href="tel:+11(000)111-11-11" class="auth-contact link">+11 (000) 111-11-11</a></li>
+        <div class="mobile-menu-container is-open" data-menu>
+            <div class="mobile-menu">
+                <button type="button" class="mobile-menu-button-close" data-menu-close>
+                <a class="mobile-close-link" href="#"><svg class="mobile-menu-button-close-icon" width="8" height="8"><use href="./images/icon-close1.svg#icon-close-black-18dp1"></use></svg></a>
+            </button>
+        <div class="menu-top">
+            <ul class="menu-navigation-list">
+                <li><a href="#" class="menu-navigation-link link current">Studio</a></li>
+                <li><a href="./portfolio.html" class="menu-navigation-link link">Portfolio</a></li>
+                <li><a href="./contacts.html" class="menu-navigation-link link">Contacts</a></li>
+                </ul>
+        </div>
+        <div class="menu-bottom">
+                <ul class="menu-auth-contact">
+                    <li><a href="tel:+11(000)111-11-11" class="menu-auth-tel link">+11 (000) 111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="menu-auth-post link">info@devstudio.com</a></li>
+                   </ul>
+                   <ul class="menu-social-list">
+                    <li class="menu-social-item"><a href="#" class="menu-social-link"><svg class="menu-social-icon" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg></a>
+                        </li>   
+                    <li class="menu-social-item"><a href="#" class="menu-social-link"><svg class="menu-social-icon" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg></a>
+                        </li> 
+                    <li class="menu-social-item"><a href="#" class="menu-social-link"><svg class="menu-social-icon" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg></a>
+                        </li> 
+                    <li class="menu-social-item"><a href="#" class="menu-social-link"><svg class="menu-social-icon" width="24" height="24"><use href="./images/icons.svg#icon-linkedin"></use></svg></a>
+                        </li> 
                 </ul>
                 </div>
-        
+            </div>
+            </div>
         </div>
+        
             </header>
 
     <main>
@@ -206,7 +243,7 @@
       </section>
     </main>
 
-<footer class="footer">
+    <footer class="footer">
         <div class="container footer-box">
             <div class="logotype">
                 <a href="#" class="footer-logo logo link"><span class="footer-web">WEB</span>STUDIO</a>
@@ -233,13 +270,12 @@
                 <svg class="Subscribe-icon" width="24" height="20"><use href="./images/icons.svg#icon-Frame-3"></use></svg>
                 </button>
             </form>
-</div>
+            </div> 
+        </div>
+            
+         </footer>
 
-</div>
-    
-</footer>
-
-    
+         <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
     
