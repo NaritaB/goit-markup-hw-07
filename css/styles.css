@@ -47,9 +47,11 @@ p {
 }
 
 .container {
-    width: 100%;
+    max-width: 428px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
  }
 
 .page-header {
@@ -100,6 +102,10 @@ color: var(--accent-color)
   min-width: 320px;
   max-width: 480px;
   padding: 40px;
+
+  visibility: hidden;
+  opacity: 1;
+  pointer-events: auto;
  
 }
 .mobile-menu-container.is-open {
@@ -143,6 +149,7 @@ color: var(--accent-color)
             flex-direction: column;
             justify-content: space-between;
             height: 100%;
+          
         }  
 
     .menu-top {
