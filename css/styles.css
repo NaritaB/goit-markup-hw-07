@@ -82,7 +82,9 @@ color: var(--accent-color)
  .mobile-menu-button-open  {
     background-color: transparent;
     border: 0;
-    padding: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* padding: 0; */
     line-height: 0;
     }
 
@@ -224,10 +226,10 @@ color: var(--accent-color)
 
 .container-hero {
     display: block;
-       padding-top: 112px;
-       padding-bottom: 112px; 
-       margin-left: auto;
-       margin-right: auto;
+    padding-top: 112px;
+    padding-bottom: 112px; 
+    margin-left: auto;
+    margin-right: auto;
     }
 .hero {
 background: #2E2F42;
@@ -547,7 +549,6 @@ letter-spacing: 0.02em;
     
 .team {
     background-color: var(--primary-background-color);
-    
     padding-top: 96px;
     padding-bottom: 96px;
     }
@@ -559,7 +560,6 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-margin-bottom: 72px;
     }
        
     .team-item {
@@ -567,7 +567,9 @@ margin-bottom: 72px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     max-width: 264px;
-    margin: 0 auto;
+    margin-top: 72px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     }
 
@@ -620,7 +622,7 @@ margin-bottom: 72px;
     }
     
     .team-text {
-    margin-top: 8px; 
+        margin-top: 8px; 
     }
 
     .customers-wrap {
@@ -628,17 +630,17 @@ margin-bottom: 72px;
         padding-bottom: 96px;
         }
         
-        .customers-title {
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.11;
+    .customers-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
                             
-            text-align: center;
-            letter-spacing: 0.02em;
-            text-transform: capitalize;
-            margin-bottom: 72px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
             
-            color: #2E2F42;
+        color: #2E2F42;
         }
         
         .customers-list {
